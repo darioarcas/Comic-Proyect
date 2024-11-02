@@ -7,7 +7,7 @@ import { PublicRoute } from "./PublicRoute";
 export const AppRouter = () => {
   return (
     <>
-        <BrowserRouter>
+        <BrowserRouter basename="/Comic-Proyect">
             <Routes>
                 {/* <Route path="/login" element={<LoginScreen />}/> */}
 

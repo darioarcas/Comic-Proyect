@@ -28,8 +28,9 @@ export const HeroScreen = () => {
     <div className="row mt-5">
       <div className="col-4">
         <img 
-          src={`/assets/${id}.jpg`} alt={superhero} 
-          // src={`../../../public/assets/${id}.jpg`} alt={superhero} 
+          src={`/assets/${id}.jpg`}
+          // src={`${process.env.PUBLIC_URL}/assets/${id}.jpg`}
+          alt={superhero}
           className="img-thumbnail animate__animated animate__fadeInLeft"
         />
       </div>
