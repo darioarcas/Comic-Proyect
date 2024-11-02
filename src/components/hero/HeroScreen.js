@@ -4,6 +4,7 @@ import { useMemo } from "react";
 
 
 
+
 export const HeroScreen = () => {
   // Leemos los datos en el url
   const {heroeId} = useParams();
@@ -28,8 +29,8 @@ export const HeroScreen = () => {
     <div className="row mt-5">
       <div className="col-4">
         <img 
-          src={`/assets/${id}.jpg`}
-          // src={`${process.env.PUBLIC_URL}/assets/${id}.jpg`}
+          // src={`/assets/${id}.jpg`}
+          src={`${process.env.PUBLIC_URL}/assets/${id}.jpg`}
           alt={superhero}
           className="img-thumbnail animate__animated animate__fadeInLeft"
         />
